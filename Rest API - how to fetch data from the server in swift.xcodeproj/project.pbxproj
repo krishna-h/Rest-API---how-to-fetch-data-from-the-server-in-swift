@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043D271C24BC3FA2002F292D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D271B24BC3FA2002F292D /* AppDelegate.swift */; };
+		043D271E24BC3FA2002F292D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D271D24BC3FA2002F292D /* SceneDelegate.swift */; };
+		043D272024BC3FA2002F292D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D271F24BC3FA2002F292D /* ViewController.swift */; };
+		043D272324BC3FA2002F292D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043D272124BC3FA2002F292D /* Main.storyboard */; };
+		043D272524BC3FA9002F292D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043D272424BC3FA9002F292D /* Assets.xcassets */; };
+		043D272824BC3FA9002F292D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043D272624BC3FA9002F292D /* LaunchScreen.storyboard */; };
+		043D273024BC40B9002F292D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D272F24BC40B9002F292D /* DataManager.swift */; };
+		043D273224BC5C8C002F292D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D273124BC5C8C002F292D /* TableViewCell.swift */; };
+		043D273424BC6569002F292D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D273324BC6569002F292D /* Movie.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		043D271824BC3FA1002F292D /* Rest API - how to fetch data from the server in swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rest API - how to fetch data from the server in swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043D271B24BC3FA2002F292D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		043D271D24BC3FA2002F292D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		043D271F24BC3FA2002F292D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		043D272224BC3FA2002F292D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043D272424BC3FA9002F292D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043D272724BC3FA9002F292D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043D272924BC3FA9002F292D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043D272F24BC40B9002F292D /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		043D273124BC5C8C002F292D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		043D273324BC6569002F292D /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043D271524BC3FA1002F292D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043D270F24BC3FA1002F292D = {
+			isa = PBXGroup;
+			children = (
+				043D271A24BC3FA1002F292D /* Rest API - how to fetch data from the server in swift */,
+				043D271924BC3FA1002F292D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043D271924BC3FA1002F292D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043D271824BC3FA1002F292D /* Rest API - how to fetch data from the server in swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043D271A24BC3FA1002F292D /* Rest API - how to fetch data from the server in swift */ = {
+			isa = PBXGroup;
+			children = (
+				043D271B24BC3FA2002F292D /* AppDelegate.swift */,
+				043D271D24BC3FA2002F292D /* SceneDelegate.swift */,
+				043D271F24BC3FA2002F292D /* ViewController.swift */,
+				043D272F24BC40B9002F292D /* DataManager.swift */,
+				043D272124BC3FA2002F292D /* Main.storyboard */,
+				043D272424BC3FA9002F292D /* Assets.xcassets */,
+				043D272624BC3FA9002F292D /* LaunchScreen.storyboard */,
+				043D272924BC3FA9002F292D /* Info.plist */,
+				043D273124BC5C8C002F292D /* TableViewCell.swift */,
+				043D273324BC6569002F292D /* Movie.swift */,
+			);
+			path = "Rest API - how to fetch data from the server in swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043D271724BC3FA1002F292D /* Rest API - how to fetch data from the server in swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043D272C24BC3FA9002F292D /* Build configuration list for PBXNativeTarget "Rest API - how to fetch data from the server in swift" */;
+			buildPhases = (
+				043D271424BC3FA1002F292D /* Sources */,
+				043D271524BC3FA1002F292D /* Frameworks */,
+				043D271624BC3FA1002F292D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rest API - how to fetch data from the server in swift";
+			productName = "Rest API - how to fetch data from the server in swift";
+			productReference = 043D271824BC3FA1002F292D /* Rest API - how to fetch data from the server in swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043D271024BC3FA1002F292D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Gunde Ramakrishna Goud";
+				TargetAttributes = {
+					043D271724BC3FA1002F292D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 043D271324BC3FA1002F292D /* Build configuration list for PBXProject "Rest API - how to fetch data from the server in swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043D270F24BC3FA1002F292D;
+			productRefGroup = 043D271924BC3FA1002F292D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043D271724BC3FA1002F292D /* Rest API - how to fetch data from the server in swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043D271624BC3FA1002F292D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D272824BC3FA9002F292D /* LaunchScreen.storyboard in Resources */,
+				043D272524BC3FA9002F292D /* Assets.xcassets in Resources */,
+				043D272324BC3FA2002F292D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043D271424BC3FA1002F292D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D273224BC5C8C002F292D /* TableViewCell.swift in Sources */,
+				043D272024BC3FA2002F292D /* ViewController.swift in Sources */,
+				043D273424BC6569002F292D /* Movie.swift in Sources */,
+				043D273024BC40B9002F292D /* DataManager.swift in Sources */,
+				043D271C24BC3FA2002F292D /* AppDelegate.swift in Sources */,
+				043D271E24BC3FA2002F292D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		043D272124BC3FA2002F292D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043D272224BC3FA2002F292D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043D272624BC3FA9002F292D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043D272724BC3FA9002F292D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043D272A24BC3FA9002F292D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		043D272B24BC3FA9002F292D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043D272D24BC3FA9002F292D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rest API - how to fetch data from the server in swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rama.Rest-API---how-to-fetch-data-from-the-server-in-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043D272E24BC3FA9002F292D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rest API - how to fetch data from the server in swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rama.Rest-API---how-to-fetch-data-from-the-server-in-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043D271324BC3FA1002F292D /* Build configuration list for PBXProject "Rest API - how to fetch data from the server in swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043D272A24BC3FA9002F292D /* Debug */,
+				043D272B24BC3FA9002F292D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043D272C24BC3FA9002F292D /* Build configuration list for PBXNativeTarget "Rest API - how to fetch data from the server in swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043D272D24BC3FA9002F292D /* Debug */,
+				043D272E24BC3FA9002F292D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043D271024BC3FA1002F292D /* Project object */;
+}
